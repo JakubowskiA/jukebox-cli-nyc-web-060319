@@ -45,18 +45,19 @@ def run(songs)
   help
   puts "Please enter a command:"
   loop do
-  input = gets.downcase.chomp
-  if input == "exit"
-    exit_jukebox
-    break
-  elsif input == "help"
-    help
-  elsif input == "play"
-    play
-  elsif input == "list"
-    list
-  else
-    help
+    input = gets.downcase.chomp
+    if input == "exit"
+      exit_jukebox
+      break
+    elsif input == "help"
+      help
+    elsif input == "play"
+      play
+    elsif input == "list"
+      list
+    else
+      help
+    end
   end
 end
 
