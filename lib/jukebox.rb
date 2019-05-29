@@ -44,6 +44,7 @@ end
 def run(songs)
   help
   puts "Please enter a command:"
+  loop do
   input = gets.downcase.chomp
   if input == "exit"
     exit_jukebox
