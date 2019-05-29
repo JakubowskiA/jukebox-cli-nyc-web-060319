@@ -19,7 +19,7 @@ def help
 puts message
 end
 
-def play
+def play(num, title)
 
 end
 
