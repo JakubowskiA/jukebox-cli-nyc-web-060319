@@ -28,5 +28,5 @@ def list
 end
 
 def exit
-
+puts "Goodbye"
 end
