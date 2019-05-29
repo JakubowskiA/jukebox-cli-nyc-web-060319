@@ -22,9 +22,10 @@ end
 def play(songs)
 puts "Please enter the song number or name: "
 input = gets.chomp
+
 end
 
-def list
+def list(songs)
 
 end
 
