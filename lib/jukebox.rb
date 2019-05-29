@@ -19,8 +19,8 @@ def help
 puts message
 end
 
-def play(num, title)
-
+def play(songs)
+puts "Please enter the song number or name: "
 end
 
 def list
