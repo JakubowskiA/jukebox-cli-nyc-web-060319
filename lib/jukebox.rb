@@ -47,6 +47,7 @@ def run(songs)
   input = gets.downcase.chomp
   if input == "exit"
     exit_jukebox
+    break
   elsif input == "help"
     help
   elsif input == "play"
@@ -57,7 +58,7 @@ def run(songs)
     help
   end
 end
-end
+
 
 
 
